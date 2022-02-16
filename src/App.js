@@ -55,6 +55,9 @@ function App() {
       <div className="recipes">
         {recipes !== [] &&
           recipes.map((recipe) => <Recipe key={uuidv4()} recipe={recipe} />)}
+        <div className="applogo">
+          <img src="/logo192.png" alt="mylogo"></img>
+        </div>
       </div>
     </div>
   );
