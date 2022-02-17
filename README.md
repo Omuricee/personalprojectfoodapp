@@ -24,4 +24,3 @@ This will open the app in a localhost:3000 and make your code viewable in the br
 Enjoy!
 
 
--Bibek Aryal 10B
