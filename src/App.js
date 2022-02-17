@@ -39,7 +39,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Bibek's Perfect Plate</h1>
       <form onSubmit={onSubmit} className="search-form">
         {alert !== "" && <Alert alert={alert} />}
         <input
@@ -55,7 +54,10 @@ function App() {
       <div className="recipes">
         {recipes !== [] &&
           recipes.map((recipe) => <Recipe key={uuidv4()} recipe={recipe} />)}
-        <div className="applogo">
+        <div className="logo1">
+          <img src="/logo192.png" alt="mylogo"></img>
+        </div>
+        <div className="logo2">
           <img src="/logo192.png" alt="mylogo"></img>
         </div>
       </div>
