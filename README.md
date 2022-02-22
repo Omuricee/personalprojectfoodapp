@@ -3,24 +3,18 @@ In order to run this, you need the latest version of node.js installed on your s
 
 
 You can start off by running:
-### npm i react-scripts
+npm run build
 
-This will install react scripts which is another part of this app.
+This will build the react app on your system and make your app ready to be deployed.
 
 
 Then run:
-### npm run build
+### npm i react-scripts
 and
 ### npm install
 
 
 This will install react scripts which is another part of this app.
-
-Then run
-
-### npm audit fix -foce
-
-This will fix the vulnerabilities
 
 Lastly, run:
 ### npm start
