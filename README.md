@@ -5,7 +5,7 @@ You will also need to create your own api key and ID in order to run the app.
 
 Head over to this website https://developer.edamam.com/admin and create a new Application. Retrieve your own APP_ID and APP_KEY
 
-Once this is done, create a new .env file in your folder and add these two lines
+Once this is done, create a new .env.local file in your folder and add these two lines
 
 ### REACT_APP_ID="your own app id"
 ### REACT_APP_KEY="your own app key"
